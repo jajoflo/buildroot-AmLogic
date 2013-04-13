@@ -4,9 +4,9 @@
 #
 #################################################################################
 
-XBMC_VERSION = 56187ab6bfe53bb0d80c8329e2b472d2ebb17772
+XBMC_VERSION = 99812418d0a83c57716d18c6edd84b707fda47e1
 XBMC_SITE_METHOD = git
-XBMC_SITE = git://github.com/jajoflo/xbmc.git
+XBMC_SITE = git://github.com/Pivosgroup/xbmc.git
 XBMC_INSTALL_STAGING = YES
 XBMC_INSTALL_TARGET = YES
 
@@ -92,3 +92,4 @@ XBMC_POST_INSTALL_TARGET_HOOKS += XBMC_STRIP_BINARIES
 endif
 
 $(eval $(call AUTOTARGETS,package/thirdparty,xbmc))
+
